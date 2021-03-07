@@ -1,4 +1,5 @@
-### Frontend
+#### Frontend
+강의 본거, 스터디한거, 기타등등 프론트엔드 관련된 것을 git submodule로 연동
 
 #### node 버전이 다른 개발환경에서 필요시 version을 변경하기 위해 사용하는 NVM(Node Version Manager) 설치/사용 정리  
 
