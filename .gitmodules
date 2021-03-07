@@ -4,3 +4,6 @@
 [submodule "apple-clone"]
 	path = apple-clone
 	url = https://github.com/bulhwi/apple_clone.git
+[submodule "react-note"]
+	path = react-note
+	url = https://github.com/bulhwi/react-note.git
