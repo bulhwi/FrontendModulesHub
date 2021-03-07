@@ -1,3 +1,6 @@
 [submodule "vueNews"]
 	path = vueNews
 	url = https://github.com/bulhwi/vue-news.git
+[submodule "apple-clone"]
+	path = apple-clone
+	url = https://github.com/bulhwi/apple_clone.git
