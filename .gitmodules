@@ -1,0 +1,3 @@
+[submodule "vueNews"]
+	path = vueNews
+	url = https://github.com/bulhwi/vue-news.git
