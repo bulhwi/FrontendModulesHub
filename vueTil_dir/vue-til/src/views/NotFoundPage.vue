@@ -1,10 +1,12 @@
 <template>
-	<div>header</div>
+	<div>
+		Page is not found
+	</div>
 </template>
 
 <script>
 export default {
-	name: 'header',
+	name: 'NotFoundPage',
 };
 </script>
 
