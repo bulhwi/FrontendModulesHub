@@ -1,6 +1,26 @@
 #### Frontend
 강의 본거, 스터디한거, 기타등등 프론트엔드 관련된 것을 git submodule로 연동
 
+### git submodule 
+```bash
+  // root 경로는 필요없음.
+  // 서브모듈 추가
+  git submodule add https://github.com/bulhwi/repository.git 경로/명
+  
+  // 서브모듈 제거
+  git submodule deinit 경로/명
+  
+  // 모든 서브모듈 제거
+  git submodule deinit .
+  
+  // root 리포지토리를 clone할때 서브모듈도 한번에 clone
+  git clone --recursive URL
+  
+  // 서브모듈 업데이트 / 초기화
+  git submodule update
+  git submodule init
+```
+
 #### node 버전이 다른 개발환경에서 필요시 version을 변경하기 위해 사용하는 NVM(Node Version Manager) 설치/사용 정리  
 
 * 제어판에서 기존 node.js 제거
