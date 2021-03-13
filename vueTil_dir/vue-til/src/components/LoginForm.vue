@@ -61,9 +61,6 @@ export default {
 		initForm() {
 			this.username = '';
 			this.password = '';
-			setTimeout(() => {
-				this.logMessage = '';
-			}, 2000);
 		},
 	},
 };
