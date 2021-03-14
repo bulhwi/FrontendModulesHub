@@ -7,3 +7,6 @@
 [submodule "react-note"]
 	path = react-note
 	url = https://github.com/bulhwi/react-note.git
+[submodule "webAssembly_in_action"]
+	path = webAssembly_in_action
+	url = https://github.com/bulhwi/webAssembly_in_action.git
