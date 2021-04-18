@@ -10,3 +10,6 @@
 [submodule "webAssembly_in_action"]
 	path = webAssembly_in_action
 	url = https://github.com/bulhwi/webAssembly_in_action.git
+[submodule "Typescript"]
+	path = Typescript
+	url = https://github.com/bulhwi/Typescript.git
