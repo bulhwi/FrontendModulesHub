@@ -21,7 +21,7 @@
 	</div>
 </template>
 <script>
-import { createPost } from '@/api/index';
+import { createPost } from '@/api/posts';
 
 export default {
 	name: 'PostAddForm',
@@ -44,6 +44,7 @@ export default {
 					title: this.title,
 					contents: this.contents,
 				});
+				this.$router.push('/main');
 			} catch (error) {
 				this.logMessage = error.response.data.message;
 			}
