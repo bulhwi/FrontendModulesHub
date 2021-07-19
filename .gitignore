@@ -268,3 +268,4 @@ vueTil_dir/vue-til/node_modules
 vueTil_dir/vue-til-server/node_modules
 
 .vs/*
+.idea/
