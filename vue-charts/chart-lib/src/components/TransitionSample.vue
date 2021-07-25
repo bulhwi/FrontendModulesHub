@@ -42,10 +42,10 @@ export default {
 }
 
 .slide-fade-enter-active, .slide-fade-leave-active {
-  transition: all .5s;
+  transition: all .5s !important;
 }
 .slide-fade-enter, .slide-fade-leave-to  {
-  opacity: 0;
-  transform: translateY(10rem);
+  opacity: 0 !important;
+  transform: translateY(10rem) !important;
 }
 </style>

@@ -4,7 +4,7 @@
 <!--    <BarChart :propsData="chartDataSet"></BarChart>-->
 <!--    <LineChart></LineChart>-->
 <!--    <TransitionSample />-->
-    <ListSample />
+<!--    <ListSample />-->
   </div>
 </template>
 
