@@ -1,9 +1,10 @@
 <template>
   <div>
-    <h1>Chart.js</h1>
+<!--    <h1>Chart.js</h1>-->
 <!--    <BarChart :propsData="chartDataSet"></BarChart>-->
 <!--    <LineChart></LineChart>-->
-    <TransitionSample />
+<!--    <TransitionSample />-->
+    <ListSample />
   </div>
 </template>
 
@@ -11,10 +12,11 @@
 import BarChart from "@/components/BarChart";
 import LineChart from "@/components/LineChart";
 import TransitionSample from "@/components/TransitionSample";
+import ListSample from './components/ListSample';
 
 export default {
   name: "App",
-  components: {BarChart, LineChart, TransitionSample},
+  components: {BarChart, LineChart, TransitionSample, ListSample},
   data() {
     return {
       chartDataSet: [{

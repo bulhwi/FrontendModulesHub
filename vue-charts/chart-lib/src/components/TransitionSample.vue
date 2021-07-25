@@ -3,10 +3,12 @@
     <button v-on:click="open('coupon')">
       Toggle
     </button>
-    <transition name="slide-fade">
-<!--      <p v-if="show">hello</p>-->
-      <TransitionChildComponent v-show='text === "coupon"' @close='close'></TransitionChildComponent>
-    </transition>
+    <div :class='text !== "coupon" ? "none" : ""'>
+      <transition name="slide-fade" mode='out-in'>
+  <!--      <p v-if="show">hello</p>-->
+        <TransitionChildComponent v-show='text === "coupon"' @close='close'></TransitionChildComponent>
+      </transition>
+    </div>
   </div>
 </template>
 
@@ -35,6 +37,10 @@ export default {
 </script>
 
 <style scoped>
+.none {
+  display: none;
+}
+
 .slide-fade-enter-active, .slide-fade-leave-active {
   transition: all .5s;
 }
