@@ -13,3 +13,6 @@
 [submodule "Typescript"]
 	path = Typescript
 	url = https://github.com/bulhwi/Typescript.git
+[submodule "nuxtApp"]
+	path = nuxtApp
+	url = https://github.com/bulhwi/NuxtApp.git
