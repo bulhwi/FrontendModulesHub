@@ -38,5 +38,3 @@
     * node -v
     * npm -v
     * nvm ls
-
-    test
