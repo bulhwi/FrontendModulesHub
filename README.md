@@ -1,5 +1,5 @@
 #### Frontend
-**강의 본거, 스터디한거, 기타등등 프론트엔드 관련된 것을 git submodule로 연동**
+** 강의 본거, 스터디한거, 기타등등 프론트엔드 관련된 것을 git submodule로 연동 **
 
 ### git submodule 
 ```bash
