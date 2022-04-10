@@ -16,3 +16,6 @@
 [submodule "nuxtApp"]
 	path = nuxtApp
 	url = https://github.com/bulhwi/NuxtApp.git
+[submodule "GraphQL"]
+	path = GraphQL
+	url = https://github.com/bulhwi/GraphQL-toy.git
