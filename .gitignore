@@ -272,3 +272,5 @@ vueTil_dir/vue-til-server/node_modules
 .vs/*
 .idea/
 */*/.idea
+
+.DS_Store
